@@ -1,0 +1,152 @@
+/*
+Theme Name: Impreza Child
+Template: Impreza
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://impreza.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+.padding0 .l-section-h{
+	padding:0;
+}
+
+/* Buttons controls in the home page  */
+.l-main .w-actionbox.box-home-1-sm .w-actionbox-controls{
+	padding-top:0 !important;
+}
+
+.l-main .w-actionbox.box-home-1-sm span.w-btn-label {
+    color: #5C666F;
+    letter-spacing: 0px;
+    font-weight: 100;
+}
+
+/* Separator yellow */
+
+.l-section.wpb_row.height_medium.separator-box-1-sm .l-section-h {
+	padding:0;
+}
+
+/* Title with 100% */
+
+.wpb_row.header-box-1-sm .vc_column_container .vc_custom_heading{
+   	text-align: center;
+    background-color: #DEDDDA;
+    font-size: 19px;
+    color: #5E595C;
+    letter-spacing: 1px;
+    padding: 15px;
+    position: relative;
+    margin-top: 45px;
+}
+
+@media(min-width:1100px){
+	.wpb_row.header-box-1-sm .vc_column_container .vc_custom_heading:before{
+		content:". . . . . . . . . . . . . . . . . . . .";
+	    display: block;
+	    position: absolute;
+		left: 20vw;
+	    top: 1.5vh;
+	    font-weight: bold;
+	    color: #191312;
+	}
+
+	.wpb_row.header-box-1-sm .vc_column_container .vc_custom_heading:after{
+		content:". . . . . . . . . . . . . . . . . . . .";
+	    display: block;
+	    position: absolute;
+	    right: 20vw;
+	    top: 1.5vh;
+	    font-weight: bold;
+	    color: #191312;	
+	}
+}
+
+
+/* Text box in Home page */
+
+.wpb_text_column.text-box-1-sm {
+	text-align: center;
+}
+
+.wpb_text_column.text-box-1-sm h3,
+.banner-content-box-1-sm .ultb3-info .ultb3-title
+{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.wpb_text_column.text-box-1-sm p,
+.banner-content-box-1-sm .ultb3-info .ultb3-desc{
+    font-size: 14px;
+    line-height: 26px;
+    color: #575756;
+}
+
+.text-box-1-sm + .w-btn-wrapper a.w-btn.color_light, 
+.banner-content-box-1-sm .ultb3-info .ultb3-btn {
+	background-color:#8F99A0; 
+	color:#fff !important;
+	border-radius: 0 !important;
+}
+
+/* Portfolio Home Page */
+
+.portfolio-box-1-sm h2.w-portfolio-item-title {
+	display:none !important;
+}
+
+.style_10.portfolio-box-1-sm .w-portfolio-item-meta:before{
+	background: linear-gradient(transparent,rgba(222,221,218,.8)) repeat-x;
+}
+
+@media(min-width:1100px){
+	.portfolio-box-1-sm.w-portfolio.with_indents .w-portfolio-item{
+	   padding:30px;
+	} 
+}
+
+/* Banners for brands */
+
+.banner-content-box-1-sm {
+	background-image: url("/wp-content/uploads/2017/05/back_banner-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-content-box-1-sm.back2	{
+	background-image: url("/wp-content/uploads/2017/05/back_banner2.png");
+}
+
+.banner-content-box-1-sm {
+	position:relative;
+}
+
+
+@media(min-width:1100px){
+	.banner-content-box-1-sm .ultb3-box .ultb3-info{
+	    padding: 0;
+    	padding-top: 70px;
+	}
+
+	.banner-image-mini-1-sm{
+		position: absolute;
+	    left: 0;
+	    max-width: 170px;
+	    top: -29px;
+	}
+	.back2 .banner-image-mini-1-sm{
+		right:0;
+		left:inherit;
+	}
+	.banner-content-box-1-sm ul {
+		margin-left: 20px;
+	}
+}
+
+.banner-content-box-1-sm {
+	margin-bottom:50px !important;
+}
